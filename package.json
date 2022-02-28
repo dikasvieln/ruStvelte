@@ -1,0 +1,24 @@
+{
+  "name": "rust-svelte",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "svelte-kit dev",
+    "build": "svelte-kit build",
+    "package": "svelte-kit package",
+    "preview": "svelte-kit preview",
+    "lint": "eslint --ignore-path .gitignore ."
+  },
+  "devDependencies": {
+    "@sveltejs/adapter-auto": "next",
+    "@sveltejs/kit": "next",
+    "eslint": "^7.32.0",
+    "eslint-plugin-svelte3": "^3.2.1",
+    "node-sass": "^7.0.1",
+    "svelte": "^3.44.0",
+    "svelte-preprocess": "^4.10.4"
+  },
+  "type": "module",
+  "dependencies": {
+    "firebase": "^9.6.7"
+  }
+}
